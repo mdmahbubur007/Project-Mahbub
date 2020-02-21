@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto';
+}
+.first-part{
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;   
+    background-position: left;
+    width:100%;
+    height: 100vh;
+}
+.Element-1st-section{
+    width:40%;
+    padding:2%;
+    float:left;
+    margin-top: 80px;
+    margin-left:5%;
+}
+.Element-1st-section img{
+    width:38%;
+}
+h1 span{
+    color:palevioletred;
+    font-size: 45px;
+}
+h1{
+    margin-top:10px;
+    
+}
+p{
+    text-align: justify;
+    margin-top: 25px;
+}
+a{
+    text-decoration: none;
+    margin-top:50px;
+    padding:10px 40px;
+    color:white;
+    border: 2px solid pink;
+    background-color: palevioletred;
+    border-radius:5px;
+}
+.Second-part{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;  
+    background-size: cover;
+    width:100%;
+    height:100vh;
+}
+.work-image{
+    width:30%;
+    margin:1%;  
+}
+#third-part{
+    background-image: url("/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#font-size{
+    Font-size:70px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom:60px;
+}
+.medium-font{
+    Font-size:30px;
+    font-weight: 700;
+    text-align: center;
+}
+.late-middle{
+    Font-size:20px;
+    font-weight: 300;
+    text-align: center;
+    color:gray;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+.lorem{
+    Font-size:30px;
+    font-weight: 300;
+    text-align: center;
+    margin-top:20px;
+    padding: 0 300px;
+    margin-bottom: 80px;
+}
+#massage-programming-hero{
+    width:700px;
+    height:100px;
+    padding:35px;
+    background-color:palevioletred;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.massage{
+    text-align:center;
+    font-size: 15px;
+}
+.programming-hero{
+    text-align:center;
+    font-size: 30px;
+}
+footer p{
+    text-align: center;
+    margin-top: 70px;
+}
+#latest-work{
+    background-image: url("/footer-bg.png");
+}
