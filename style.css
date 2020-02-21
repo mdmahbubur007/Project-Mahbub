@@ -34,7 +34,7 @@ p{
     text-align: justify;
     margin-top: 25px;
 }
-a{
+.Element-1st-section a{
     text-decoration: none;
     margin-top:50px;
     padding:10px 40px;
@@ -43,7 +43,7 @@ a{
     background-color: palevioletred;
     border-radius:5px;
 }
-a:hover {
+.Element-1st-section a:hover {
     text-decoration: none;
     margin-top:50px;
     padding:10px 40px;
@@ -182,6 +182,28 @@ footer p{
     background-position: left;
     background-size: cover;
 }
+@media only screen and (max-width:992px){
+    #massage-programming-hero{
+        width:552px;
+    }
+    #massage-programming-hero:hover{
+        width:552px;
+    }
+    .first-part{
+        width:950px;
+        height: 600px;
+       
+    }
+    .Second-part{
+        height:550px;
+        width:100%;
+    }
+}
+@media only screen and (max-width:912px){
+    .first-part{
+        width: 100%;
+    }
+}
 @media only screen and (max-width:768px){
     .lorem{font-size:20px; text-align:left;padding: 0 100px;
         margin-bottom: 20px;}
@@ -193,9 +215,15 @@ footer p{
     }
     .first-part{
         height:500px;
+        width:700px;
     }
     .Second-part{
         height:550px;
+        width:700px;
+    }
+    #latest-work{
+       
+        height:500px;
     }
 }
 @media only screen and (max-width:626px){
@@ -212,6 +240,14 @@ footer p{
    #massage-programming-hero:hover{
     width:448px;
 }
+    .first-part{
+        height:500px;
+        width:550px;
+    }
+    .Second-part{
+        height:550px;
+        width:550px;
+    }
 }
 @media only screen and (max-width:524px){
     #massage-programming-hero{
@@ -232,9 +268,22 @@ footer p{
         width:24%;
         margin:1%;
     }
+    .first-part{
+        width:450px;
+    }
+    .Second-part{
+        width:450px;
+    }
+    #latest-work{
+        width:450px;
+    }
 }
 @media only screen and (max-width:636px){
     #font-size{font-weight:400;
                 font-size:50px;    
+    }
+    .Second-part{
+        height:550px;
+        width:550px;
     }
 }
