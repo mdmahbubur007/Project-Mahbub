@@ -10,7 +10,7 @@
     background-position: left;
     width:100%;
     height: 700px;
-    border: 2px solid red;
+   
 }
 .Element-1st-section{
     width:40%;
@@ -47,10 +47,10 @@ a:hover {
     text-decoration: none;
     margin-top:50px;
     padding:10px 40px;
-    color:white;
-    border: 2px solid;
-    background-image: linear-gradient(90deg lightgreen, lightsalmon);
-    border-radius:5px;
+    color:black;
+    border: 2px solid lightslategrey;
+    background-color:coral;
+    border-radius:10px;
     transition: 1s all ease-in;
 }
 .Second-part{
@@ -59,7 +59,7 @@ a:hover {
     background-size: cover;
     width:100%;
     height:750px;
-    border: 2px Solid blue;
+   
 }
 .work-image{
     width:30%;
@@ -79,14 +79,14 @@ a:hover {
     background-size: cover;
     width: 100%;
     height: 500px;
-    border:2px solid salmon;
+  
 }
 #font-size{
     Font-size:70px;
     font-weight: 900;
     text-align: center;
     margin-bottom:60px;
-    animation: lead .5s infinite;
+    animation: lead .8s infinite;
 }
 @keyframes lead{
     0%{
@@ -181,5 +181,60 @@ footer p{
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
-    border: 2px double green;
+}
+@media only screen and (max-width:768px){
+    .lorem{font-size:20px; text-align:left;padding: 0 100px;
+        margin-bottom: 20px;}
+    #massage-programming-hero{
+        width:552px;
+    }
+    #massage-programming-hero:hover{
+        width:552px;
+    }
+    .first-part{
+        height:500px;
+    }
+    .Second-part{
+        height:550px;
+    }
+}
+@media only screen and (max-width:626px){
+    #massage-programming-hero{
+        width:448px;
+        
+    }
+    .lorem{text-align:left;
+            font-weight: 200;
+            font-size:15px;
+            padding: 0 100px;
+            margin-bottom: 20px;
+   }
+   #massage-programming-hero:hover{
+    width:448px;
+}
+}
+@media only screen and (max-width:524px){
+    #massage-programming-hero{
+        width:448px;    
+    }
+    #massage-programming-hero:hover{
+        width:448px;
+    }
+    .work-image:hover{
+        width:24%;
+        margin:1%;
+       
+        border: 5px double coral;
+        border-radius:15%;
+        transition:3s ease; 
+    }
+    .work-image{
+        width:24%;
+        margin:1%;
+    }
+}
+@media only screen and (max-width:636px){
+    #font-size{font-weight:400;
+                font-size:50px;    
+    }
 }
